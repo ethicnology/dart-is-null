@@ -1,6 +1,6 @@
-// TODO: Put public facing types in this file.
+/// Checks if an Object is null or not
+extension IsNull on Object? {
+  bool get isNull => this == null;
 
-/// Checks if you are awesome. Spoiler: you are.
-class Awesome {
-  bool get isAwesome => true;
+  bool get isNotNull => this != null;
 }

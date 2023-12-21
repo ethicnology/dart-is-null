@@ -1,7 +1,7 @@
 name: is_null
-description: A starting point for Dart libraries or applications.
+description: Using `.isNull` rather than `== null`
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/ethicnology/dart-is-null
 
 environment:
   sdk: ^3.2.0
